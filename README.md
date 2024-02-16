@@ -19,7 +19,7 @@ This project is a decentralized voting platform built using Vue.js, Solidity, an
 
 1. Clone the repository:
 
-```bash
+````bash
 git clone https://github.com/cybfar/decentralized-voting-platform.git
 
 cd decentralized-voting-platform
@@ -30,15 +30,15 @@ cd decentralized-voting-platform
 
 #### Hot-reloads for development
 
-```
+```bash
 
 npm run dev
 
-```
+````
 
 #### Builds and minifies for production
 
-```
+```bash
 
 npm run build
 
@@ -46,7 +46,7 @@ npm run build
 
 #### Serves recently built app
 
-```
+```bash
 
 npm run preview
 
@@ -56,11 +56,9 @@ npm run preview
 
 #### Lint
 
-```
+```bash
 
 npm run lint
-
-```
 
 ```
 
@@ -84,3 +82,7 @@ Contributions are welcome! Please follow the standard GitHub workflow:
 3. Make your changes and commit them: `git commit -m 'Add some feature'`.
 4. Push to the branch: `git push origin feature/your-feature`.
 5. Submit a pull request.
+
+```
+
+```
