@@ -8,9 +8,6 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-.vscode
-.nuxt-guide
-.laravel-guide
 .DS_Store
 dist
 dist-ssr
@@ -22,6 +19,8 @@ coverage
 
 # Editor directories and files
 .vscode/*
+.laravel-guide/*
+.nuxt-guide/*
 !.vscode/extensions.json
 .idea
 *.suo
