@@ -1,112 +1,28 @@
-# [Admin One &mdash; Free Vue 3.x Tailwind 3.x Admin Dashboard with dark mode](https://justboil.me/tailwind-admin-templates/free-vue-dashboard/)
+# Decentralized Voting Platform
 
-[![version](https://img.shields.io/github/v/release/justboil/admin-one-vue-tailwind)](https://justboil.me/tailwind-admin-templates/free-vue-dashboard/)  [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://justboil.me/tailwind-admin-templates/free-vue-dashboard/)
+This project is a decentralized voting platform built using Vue.js, Solidity, and Web3.js. It enables users to securely cast their votes on various topics while ensuring transparency and immutability through blockchain technology.
 
-### Tailwind 3.x Vue 3.x with Vite or Nuxt or Laravel
+## Features
 
-[![Free Vue 3 Tailwind 3 admin dashboard with dark mode](https://static.justboil.me/templates/one/repo-tailwind-vue.png)](https://justboil.github.io/admin-one-vue-tailwind/)
+- **Decentralization**: The platform operates on a decentralized network, ensuring transparency and eliminating the need for a central authority.
+- **Security**: Votes are securely recorded on the blockchain, preventing tampering or manipulation.
+- **Immutable Ledger**: The blockchain maintains an immutable ledger of all votes cast, providing an auditable record of the voting process.
+- **User-Friendly Interface**: The platform offers a user-friendly interface built with Vue.js, making it accessible to a wide range of users.
 
-[![Vue Tailwind white & dark styles](https://static.justboil.me/templates/one/repo-styles.png)](https://justboil.github.io/admin-one-vue-tailwind/)
+## Technologies Used
 
-### Tailwind 3.x Vue 3.x with Vite or Nuxt or Laravel
+- **Vue.js**: A progressive JavaScript framework for building user interfaces.
+- **Solidity**: A contract-oriented programming language for writing smart contracts on the Ethereum blockchain.
+- **Web3.js**: A JavaScript library for interacting with the Ethereum blockchain, enabling communication between the frontend and the blockchain.
 
-**Admin One** is simple, beautiful and free Vue.js 3.x Tailwind CSS 3.x admin dashboard. Nuxt 3.x or Laravel 9.x integrations available
+## Installation
 
-* Built with **Vue.js 3**, **Tailwind CSS 3** framework & **Composition API**
-* **Vite** under the hood &mdash; [Info](https://vitejs.dev)
-* **Nuxt 3** integration available &mdash; [Info](#nuxt-3-integration)
-* **Laravel Breeze Inertia Vue** integration available &mdash; [Info](#laravel-9x-integration)
-* **SFC** `<script setup>` &mdash; [Info](https://v3.vuejs.org/api/sfc-script-setup.html)
-* **Pinia** state library (official Vuex 5) &mdash; [Info](https://pinia.vuejs.org/)
-* **Dark mode**
-* **Styled** scrollbars
-* SPA with **Router**
-* **Production CSS** is only **&thickapprox;38kb**
-* Reusable components
-* Free under MIT License
-* [Premium version](https://justboil.me/tailwind-admin-templates/vue-dashboard/) available
+1. Clone the repository:
 
-## Table of Contents
+```bash
+git clone https://github.com/cybfar/decentralized-voting-platform.git
 
-* [React TypeScript version](#looking-for-react-typescript-version)
-* [Responsive layout](#responsive-layout)
-  * [Mobile & tablet](#mobile--tablet)
-  * [Small laptops](#small-laptops-1024px)
-  * [Laptops & desktops](#laptops--desktops)
-* [Demo](#demo)
-  * [Free dashboard demo](#free-dashboard-demo)
-  * [Premium dashboard demo](#premium-dashboard-demo)
-* [Quick Start](#quick-start)
-  * [Get code & install](#get-code--install)
-  * [Vite builds](#vite-builds)
-  * [Linting](#linting)
-  * [Nuxt 3.x integration](#nuxt-3x-integration)
-  * [Laravel 9.x integration](#laravel-9x-integration)
-* [Docs](#docs)
-* [Browser Support](#browser-support)
-* [Reporting Issues](#reporting-issues)
-* [Licensing](#licensing)
-* [Useful Links](#useful-links)
-
-## Looking for React TypeScript version?
-
-This is **Tailwind Vue dashboard** version
-
-Looking for **Tailwind React TypeScript**? Check [Admin One - React TypeScript Tailwind dashboard](https://github.com/justboil/admin-one-react-tailwind) version
-
-## Responsive layout
-
-### Mobile & tablet
-
-Mobile layout with hidden aside menu and collapsable cards & tables
-
-[![Free Vue 3 Tailwind CSS 3 admin dashboard](https://static.justboil.me/templates/one/one-tailwind-vue-mobile.png)](https://justboil.github.io/admin-one-vue-tailwind/)
-
-### Small laptops 1024px
-
-Small laptop layout with show/hide aside menu option
-
-[![Free Vue 3 Tailwind CSS 3 admin dashboard](https://static.justboil.me/templates/one/one-tailwind-vue-1024.png)](https://justboil.github.io/admin-one-vue-tailwind/)
-
-[![Free Vue 3 Tailwind CSS 3 admin dashboard](https://static.justboil.me/templates/one/one-tailwind-vue-1024-menu-open.png)](https://justboil.github.io/admin-one-vue-tailwind/)
-
-### Laptops & desktops
-
-Classic layout with aside menus on the left
-
-[![Free Vue 3 Tailwind CSS 3 admin dashboard](https://static.justboil.me/templates/one/one-tailwind-vue-widescreen.png)](https://justboil.github.io/admin-one-vue-tailwind/)
-
-## Demo
-
-### Free Dashboard Demo
-
-https://justboil.github.io/admin-one-vue-tailwind/
-
-### Premium Dashboard Demo
-
-https://tailwind-vue.justboil.me/
-
-## Quick Start
-
-Get code & install. Then `dev` or `build` with [Vite](#vite-builds) or integrate with [Nuxt](#nuxt-3x-integration) or [Laravel](#laravel-9x-integration)
-
-* [Get code & install](#get-code--install)
-* [Vite builds](#vite-builds)
-* [Linting](#linting)
-* [Nuxt 3.x integration](#nuxt-3x-integration)
-* [Laravel 9.x integration](#laravel-9x-integration)
-
-### Get code & install
-
-#### Get the repo
-
-* [Create new repo](https://github.com/justboil/admin-one-vue-tailwind/generate) with this template
-* &hellip; or clone this repo on GitHub
-* &hellip; or [download .zip](https://github.com/justboil/admin-one-vue-tailwind/archive/master.zip) from GitHub
-
-#### Install
-
-`cd` to project's dir and run `npm install`
+cd decentralized-voting-platform
 
 ### Vite builds
 
@@ -115,19 +31,25 @@ Get code & install. Then `dev` or `build` with [Vite](#vite-builds) or integrate
 #### Hot-reloads for development
 
 ```
+
 npm run dev
+
 ```
 
 #### Builds and minifies for production
 
 ```
+
 npm run build
+
 ```
 
 #### Serves recently built app
 
 ```
+
 npm run preview
+
 ```
 
 ### Linting
@@ -135,47 +57,34 @@ npm run preview
 #### Lint
 
 ```
+
 npm run lint
+
 ```
 
-### Nuxt 3.x integration
+```
 
-This dashboard can be integrated with Nuxt 3.x. [Check guide](https://github.com/justboil/admin-one-vue-tailwind/tree/master/.nuxt-guide) for more information
+## Start the frontend development server:
 
-### Laravel 9.x integration
+Access the application at [http://localhost:5173](http://localhost:5173).
 
-This dashboard can be integrated with Laravel 9.x Breeze Inertia + Vue.js stack. [Check guide](https://github.com/justboil/admin-one-vue-tailwind/tree/master/.laravel-guide) for more information
+## Usage
 
-## Docs
+1. Connect to a compatible Ethereum wallet like MetaMask.
+2. Navigate to the voting platform.
+3. Choose your candidate and cast your vote.
+4. View voting results and monitor the blockchain for transparency.
 
-Customization & info: https://justboil.github.io/docs/
+## Contributing
 
-## Browser Support
+Contributions are welcome! Please follow the standard GitHub workflow:
 
-We try to make sure Dashboard works well in the latest versions of all major browsers
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature/your-feature`.
+5. Submit a pull request.
 
-<img src="https://justboil.me/images/browsers-svg/chrome.svg" width="64" height="64" alt="Chrome"> <img src="https://justboil.me/images/browsers-svg/firefox.svg" width="64" height="64" alt="Firefox"> <img src="https://justboil.me/images/browsers-svg/edge.svg" width="64" height="64" alt="Edge"> <img src="https://justboil.me/images/browsers-svg/safari.svg" width="64" height="64" alt="Safari"> <img src="https://justboil.me/images/browsers-svg/opera.svg" width="64" height="64" alt="Opera">
+## License
 
-## Reporting Issues
-
-JustBoil's free items are limited to community support on GitHub.
-
-The issue list is reserved exclusively for bug reports and feature requests. That means we do not accept usage questions. If you open an issue that does not conform to the requirements, it will be closed.
-
-1. Make sure that you are using the latest version of the Dashboard. Issues for outdated versions are irrelevant
-2. Provide steps to reproduce
-3. Provide an expected behavior
-4. Describe what is actually happening
-5. Platform, Browser & version as some issues may be browser specific
-
-## Licensing
-
-- Copyright &copy; 2019-2022 JustBoil.me (https://justboil.me)
-- Licensed under MIT
-
-## Useful Links
-
-- [JustBoil.me](https://justboil.me/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Vue.js 3](https://v3.vuejs.org/)
-- [Vite](https://vitejs.dev)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
